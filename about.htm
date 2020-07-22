@@ -35,7 +35,21 @@
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-			
+		
+	<script language="javascript"> 
+			function toggle() {
+				   var ele = document.getElementById("toggleText");
+				   var text = document.getElementById("displayText");
+				   if(ele.style.display == "block") {
+						   ele.style.display = "none";
+					   text.innerHTML = "Mostrar Cuadro Sinoptico";
+				   }
+				   else {
+					   ele.style.display = "block";
+					   text.innerHTML = "Ocultar Cuadro Sinoptico";
+				   }
+			} 
+		</script>			
 
 	</head>
 	
@@ -54,8 +68,8 @@
 				<div class="logo">
 					<a href="">
 						<div class="name_logo">
-							<p>MY <span class="orange">P</span>ERSONNAL</p>
-							<p><span class="green">P</span>ORTFOLIO</p>
+							<p><span class="orange">S</span>ISTEMAS</p>
+							<p><span class="green">C</span>ONTABLES</p>
 						</div>
 						<div class="picture_logo">
 							<div class="orange_square"></div>
@@ -77,42 +91,86 @@
 					<!-- naviguation -->
 					<nav id="nav">
 						<ul>
-							<li>	
+							<li>		
 								<a href="index.htm">
 									<i class="icon-arrow"></i>
-									<span>HOME</span>
+									<span>INICIO</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>		
+								<a href="intro.htm">
+									<i class="icon-arrow"></i>
+									<span>1. INTRODUCCION A LA CONTABILIDAD</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li class="active">	
 								<a href="about.htm">
 									<i class="icon-arrow"></i>
-									<span>ABOUT</span>
+									<span>2. CUENTAS CONTABLES</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="portfolio.htm">
 									<i class="icon-arrow"></i>
-									<span>MY PORTFOLIO</span>
+									<span>3. SISTEMA CONTABLE</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="news.htm">
 									<i class="icon-arrow"></i>
-									<span>NEWS</span>
+									<span>4. REGISTROS CONTABLES</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="contact.htm">
 									<i class="icon-arrow"></i>
-									<span>CONTACT US</span>
+									<span>5. TRATAMIENTO CONTABLE IMPOSITIVO</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 
+							<li>	
+								<a href="asi.htm">
+									<i class="icon-arrow"></i>
+									<span>6. ASIENTOS DE AJUSTE</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="inv.htm">
+									<i class="icon-arrow"></i>
+									<span>7. INVENTARIOS</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="est.htm">
+									<i class="icon-arrow"></i>
+									<span>8. ESTADOS FINANCIEROS</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="asicie.htm">
+									<i class="icon-arrow"></i>
+									<span>9. ASIENTOS DE CIERRE</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="cost.htm">
+									<i class="icon-arrow"></i>
+									<span>10. SISTEMA DE CONTABILIDAD DE COSTOS</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							
+							
 							<audio id="nav-sound" preload="auto">
 								<source src="audio/bouton.mp3"></source>
 							</audio>
@@ -122,10 +180,11 @@
 					<!-- end naviguation -->
 
 					<div class="bloc ">
-						<h3 class="grey">News & Events</h3>
-						<span class="date green">01.02.2009</span>
-						<p class="grey">Lorem ipsum dolor sit amet igitur lex in amicitia. Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque.Lorem sapien vel neque. Maecenas auctor. </p>
-						<a class="orange underline" href="">learn more...</a>
+						<h3 class="grey">CPA-201, Sitemas Contables - Carrera de Informática, UMSA</h3>
+						<!--<span class="date green">01.02.2009</span>-->
+						<p class="grey">INTEGRANTES: </p>
+						<p class="grey">JHONNY JAHUIRA VELASQUEZ</p>
+						<a class="orange underline" href=""></a>
 					</div>
 
 				</aside>
@@ -138,22 +197,24 @@
 
 						<div class="col-md-6 col-xs-12">
 							<article>
-								<h2>FEW WORD ABOUT ME</h2>
+								<h2>CUENTAS CONTABLES</h2
+								
+								<p>NOTA: HAGA CLICK EN LA IMAGEN PARA VER EN UN TAMAÑO CONSIDERABLE.</p>
 								<div>
 									<div class="vlightbox-cont bloc-img">
-										<a class="vlightbox1" href="images/about-me.png" title="about-me">
-											<img src="images/thumbs/about-me.png" alt="about-me.png"/>
+										<a class="vlightbox1" href="images/slider/your_image3.jpg" title="about-me">
+											<img src="images/slider/your_image3.jpg" alt="about-me.png"/>
 										</a>
 										<span class="vlb">
 											Caption here
 										</span>
 									</div>
-									<h4 class="green">Lorem ipsum amet</h4>
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel.</p>
+									<h4 class="green">Las cuentas contables</h4>
+									<p>Se le llama cuentas contables al conjunto de registros donde se detallan de forma cronológica todas las transacciones que ocurren en un ente económico. Estas operaciones se registran en asientos de débito o crédito dependiendo del origen de la transacción.</p>
 
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et <a class="orange underline" href="">pellentesque lorem</a>.</p>	
+									<p>Así por ejemplo, una empresa tendrá una cuenta de efectivo en donde registrará todos los movimientos que involucren dinero en efectivo. <a class="orange underline" href=""></a>.</p>	
 
-									<p>Praesent dignissim, nibh lectus pharetra blandit cursus, urna nibh sagittis nibh nulla.</p>
+									<p> Si la empresa compra bienes al contado, eso significa que tendrá que dar un crédito a la cuenta de efectivo; si la empresa vende mercancías al contado, entonces deberá de dar un débito a la cuenta de efectivo.</p>
 								</div>
 								
 							</article>
@@ -163,32 +224,27 @@
 
 						<div class="col-md-6 col-xs-12">
 							<article>
-								<h2>WELCOME TO MY WEBSITE</h2>
+								<h2></h2>
 								<div>
 									<div class="vlightbox-cont bloc-img">
-										<a class="vlightbox1" href="images/welcome1.png" title="welcome1">
-											<img src="images/thumbs/welcome1.png" alt="welcome1.png"/>
+										<a class="vlightbox1" href="images/slider/your_image1.jpg" title="welcome1">
+											<img src="images/slider/your_image1.jpg" alt="welcome1.png"/>
 										</a>
 										<span class="vlb">
 											Caption here
 										</span>
 									</div>
-									<h4 class="green">Lorem ipsum amet</h4>
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel. <a class="green underline" href="">Read more</a> </p>
+									<h4 class="green">Las partes que componen una cuenta contable</h4>
+									<p>El titular o nombre de la cuenta: como su nombre lo indica, el titular se refiere a la cuenta en la que estamos registrando. Por ejemplo, si un negocio compra mercancías a crédito, deberá de dar un débito a la cuenta «Compra de mercancías» (este es el titular) y un crédito a «Proveedores»(otro titular).
+
+Debe o Débito: El Debe, también llamado débito, se coloca en la parte izquierda de la cuenta y representa todo lo que «entra» al negocio o el motivo de por qué salió algo.
+
+Haber o Crédito: Es la parte derecha de la cuenta y representa todo lo que «sale» de la empresa o bien el motivo de por qué entró algo.
+
+Saldo: Es la diferencia entre el debe y el haber. Si la suma de los débitos de una cuenta son mayores que la suma de los créditos, entonces se dice que dicha cuenta tiene un saldo deudor. Si por el contrario el total de los créditos es mayor que los débitos el saldo será acreedor.</p>
 								</div>
 								
-								<div>
-									<div class="vlightbox-cont bloc-img">
-										<a class="vlightbox1" href="images/welcome2.png" title="welcome2">
-											<img src="images/thumbs/welcome2.png" alt="welcome2.png"/>
-										</a>
-										<span class="vlb">
-											Caption here
-										</span>
-									</div>
-									<h4 class="green">Lorem ipsum amet</h4>
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel. <a class="green underline" href="">Read more</a> </p>
-								</div>
+							
 
 							</article>
 						</div>
@@ -197,45 +253,25 @@
 
 						<div class="col-md-12 col-xs-12">
 							<article>
-								<h2>FEW PHOTOS OF MY LAST VOYAGE</h2>
-								<div>
-									<div class="vlightbox-cont bloc-img">
-										<a class="vlightbox1" href="images/about1.png" title="about1">
-											<img src="images/thumbs/about1.png" alt="about1.png"/>
-										</a>
-										<span class="vlb">
-											Caption here
-										</span>
-									</div>
-									<h4 class="green">Lorem ipsum amet</h4>
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel.</p>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. </p>
-								</div>
-
-								<div>
-									<div class="vlightbox-cont bloc-img">
-										<a class="vlightbox1" href="images/about2.png" title="about2">
-											<img src="images/thumbs/about2.png" alt="about2.png"/>
-										</a>
-										<span class="vlb">
-											Caption here
-										</span>
-									</div>
-									<h4 class="green">Lorem ipsum amet</h4>
-									<p>Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque lorem sapien vel.</p>
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. </p>
-								</div>
-								
+													
+								<h2>Video</h2>
+								  <div class="row aln-center">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/2Jnd3V4BbXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								  </div>
+																						
 							</article>
 						</div>
-
-						
+</br>
+						<a id="displayText" href="javascript:toggle();">Mostrar Cuadro</a>
+								<div id="toggleText" style="display: none"><h1>Cuadro Sinoptico</h1>
+									<img src="images/slider/your_image2.jpg" alt="cuadro sinoptico" title="CUENTAS CONTABLES" id="wows1_1"/>
+								</div></br>
 
 					</div>
 
 				</div>
 				<!-- end content -->
-
+</BR>
 			</div>			
 		</div>
 

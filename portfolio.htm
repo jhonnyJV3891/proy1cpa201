@@ -36,7 +36,20 @@
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-			
+		<script language="javascript"> 
+			function toggle() {
+				   var ele = document.getElementById("toggleText");
+				   var text = document.getElementById("displayText");
+				   if(ele.style.display == "block") {
+						   ele.style.display = "none";
+					   text.innerHTML = "Mostrar Cuadro Sinoptico";
+				   }
+				   else {
+					   ele.style.display = "block";
+					   text.innerHTML = "Ocultar Cuadro Sinoptico";
+				   }
+			} 
+		</script>	
 
 	</head>
 	
@@ -54,8 +67,8 @@
 				<div class="logo">
 					<a href="">
 						<div class="name_logo">
-							<p>MY <span class="orange">P</span>ERSONNAL</p>
-							<p><span class="green">P</span>ORTFOLIO</p>
+							<p><span class="orange">S</span>ISTEMAS</p>
+							<p><span class="green">C</span>ONTABLES</p>
 						</div>
 						<div class="picture_logo">
 							<div class="orange_square"></div>
@@ -80,35 +93,78 @@
 							<li>		
 								<a href="index.htm">
 									<i class="icon-arrow"></i>
-									<span>HOME</span>
+									<span>INICIO</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>			
+								<a href="intro.htm">
+									<i class="icon-arrow"></i>
+									<span>1. INTRODUCCION A LA CONTABILIDAD</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="about.htm">
 									<i class="icon-arrow"></i>
-									<span>ABOUT</span>
+									<span>2. CUENTAS CONTABLES</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li class="active">		
 								<a href="portfolio.htm">
 									<i class="icon-arrow"></i>
-									<span>MY PORTFOLIO</span>
+									<span>3. SISTEMA CONTABLE</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="news.htm">
 									<i class="icon-arrow"></i>
-									<span>NEWS</span>
+									<span>4. REGISTROS CONTABLES</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
 							<li>	
 								<a href="contact.htm">
 									<i class="icon-arrow"></i>
-									<span>CONTACT US</span>
+									<span>5. TRATAMIENTO CONTABLE IMPOSITIVO</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							
+							<li>	
+								<a href="asi.htm">
+									<i class="icon-arrow"></i>
+									<span>6. ASIENTOS DE AJUSTE</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="inv.htm">
+									<i class="icon-arrow"></i>
+									<span>7. INVENTARIOS</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="est.htm">
+									<i class="icon-arrow"></i>
+									<span>8. ESTADOS FINANCIEROS</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="asicie.htm">
+									<i class="icon-arrow"></i>
+									<span>9. ASIENTOS DE CIERRE</span>
+									<div class="bg-nav"></div>
+								</a>
+							</li>
+							<li>	
+								<a href="cost.htm">
+									<i class="icon-arrow"></i>
+									<span>10. SISTEMA DE CONTABILIDAD DE COSTOS</span>
 									<div class="bg-nav"></div>
 								</a>
 							</li>
@@ -122,10 +178,11 @@
 					<!-- end naviguation -->
 
 					<div class="bloc ">
-						<h3 class="grey">News & Events</h3>
-						<span class="date green">01.02.2009</span>
-						<p class="grey">Lorem ipsum dolor sit amet igitur lex in amicitia. Praesent dignissim, lectus pharetra blandit cursus, urna nibh sagittis nulla, et pellentesque.Lorem sapien vel neque. Maecenas auctor. </p>
-						<a class="orange underline" href="">learn more...</a>
+						<h3 class="grey">CPA-201, Sitemas Contables - Carrera de Informática, UMSA</h3>
+						<!--<span class="date green">01.02.2009</span>-->
+						<p class="grey">INTEGRANTES: </p>
+						<p class="grey">JHONNY JAHUIRA VELASQUEZ</p>
+						<a class="orange underline" href=""></a>
 					</div>
 
 				</aside>
@@ -133,40 +190,62 @@
 
 				<!-- end content -->
 				<div class="col-md-9 col-xs-12 no_right">
+					
+					<div class="row">
 
-					<h2>MY PORTFOLIO</h2>
+							<div class="col-md-12 col-xs-12">
+							<article>
+								<h2>Sistema Contable</h2>
+								
+								<p>NOTA: HAGA CLICK EN LA IMAGEN PARA VER EN UN TAMAÑO CONSIDERABLE.</p>
+								<div>
+									<div class="vlightbox-cont bloc-img">
+										<a class="vlightbox1" href="images/slider/your_image1.jpg" title="about1">
+											<img src="images/slider/your_image1.jpg" alt="about1.png"/>
+										</a>
+										<span class="vlb">
+											Caption here
+										</span>
+									</div>
+									<h4 class="green">¿Qu&eacute; es la Contabilidad?</h4>
+									<p>Un sistema contable contiene toda la información de la empresa tanto los datos propiamente contables como financieros. Gracias a ello, es posible entender la situación económica de una sociedad de manera rápida y eficaz. Mediante este tipo de sistemas se prevé crear unas normas o pautas para controlar todas las operaciones de la empresa, y a su vez clasificar todas aquellas operaciones contables y financieras del día a día. Así pues, como idea principal debéis saber qué se utiliza para llevar las cuentas de una organización.</p>
+									</br>
+								</div>
 
-					<div id="wowslider-container2" class="gallery">
-						<div class="ws_images"><ul>
-							<li><img src="images/portfolio/image1.jpg" alt="image-1" title="your text" id="wows2_0"/></li>
-							<li><img src="images/portfolio/image2.jpg" alt="image-2" title="your text" id="wows2_1"/></li>
-							<li><img src="images/portfolio/image3.jpg" alt="image-3" title="your text" id="wows2_2"/></li>
-							<li><img src="images/portfolio/image4.jpg" alt="image-4" title="your text" id="wows2_3"/></li>
-							<li><img src="images/portfolio/image5.jpg" alt="image-5" title="your text" id="wows2_4"/></li>
-							<li><img src="images/portfolio/image6.jpg" alt="image-6" title="your text" id="wows2_5"/></li>
-							<li><img src="images/portfolio/image7.jpg" alt="image-7" title="your text" id="wows2_6"/></li>
-							<li><img src="images/portfolio/image8.jpg" alt="image-8" title="your text" id="wows2_7"/></li>
-							<li><img src="images/portfolio/image9.jpg" alt="image-9" title="your text" id="wows2_8"/></li>
-							<li><img src="images/portfolio/image10.jpg" alt="image-10" title="your text" id="wows2_9"/></li>
-						</ul></div>
-						<div class="ws_thumbs">
-						<div>
-							<a href="#wows2_0" title="image-1"><img src="images/portfolio/tooltips/image1.jpg" alt="" /></a>
-							<a href="#wows2_1" title="image-2"><img src="images/portfolio/tooltips/image2.jpg" alt="" /></a>
-							<a href="#wows2_2" title="image-3"><img src="images/portfolio/tooltips/image3.jpg" alt="" /></a>
-							<a href="#wows2_3" title="image-4"><img src="images/portfolio/tooltips/image4.jpg" alt="" /></a>
-							<a href="#wows2_4" title="image-5"><img src="images/portfolio/tooltips/image5.jpg" alt="" /></a>
-							<a href="#wows2_5" title="image-6"><img src="images/portfolio/tooltips/image6.jpg" alt="" /></a>
-							<a href="#wows2_6" title="image-7"><img src="images/portfolio/tooltips/image7.jpg" alt="" /></a>
-							<a href="#wows2_7" title="image-8"><img src="images/portfolio/tooltips/image8.jpg" alt="" /></a>
-							<a href="#wows2_8" title="image-9"><img src="images/portfolio/tooltips/image9.jpg" alt="" /></a>
-							<a href="#wows2_9" title="image-10"><img src="images/portfolio/tooltips/image10.jpg" alt="" /></a>
-							</div>
-						</div>
+								<div>
+									<div class="vlightbox-cont bloc-img">
+										<a class="vlightbox1" href="images/slider/your_image3.jpg" title="about2">
+											<img src="images/slider/your_image3.jpg" alt="about2.png"/>
+										</a>
+										<span class="vlb">
+											Caption here
+										</span>
+									</div>
+									<h4 class="green">Objetivo de la Contabilidad</h4>
+									<p>Estructura de un sistema contable
 
-						<div class="ws_shadow"></div>
-					</div>	
-
+Normalmente todo sistema contable sigue unas pautas de información que permiten que cualquier persona de la empresa pueda entender la información que en ellos se contiene, si bien quizá no es posible que todas las personas que van a tenerlo en sus manos vayan a entender todos los conceptos contables, pero la idea es que si se puedan ver de manera clara y concisa cual es la situación financiera de la misma. Así pues, por lo general, en un sistema contable encontramos los siguientes elementos:</p>
+									<p>Actividad financiera: consiste en llevar un registro de la actividad diaria de la empresa. Como recordaréis hemos dicho que la contabilidad consiste en convertir la actividad diaria en dinero para poder entender cuál es su situación, debiéndose registrar en los libros de contabilidad.</p>
+								</div>
+								
+								<a id="displayText" href="javascript:toggle();">Mostrar Cuadro</a>
+								<div id="toggleText" style="display: none"><h1>Cuadro Sinoptico</h1>
+									<img src="images/slider/your_image2.jpg" alt="cuadro sinoptico" title="CUENTAS CONTABLES" id="wows1_1"/>
+								</div></BR>
+								
+								
+								<h2>Video</h2>
+								<div class="row aln-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9yCvKWzhfxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+								
+							</article>
+							
+							
+					
+					</div>		
+								
+					<!-- end content -->	
 				</div>
 				<!-- end content -->
 
